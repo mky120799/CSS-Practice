@@ -102,7 +102,8 @@ ul{
 }
 
 .primary-button:hover {
-    background-color: var(--);
+    background-color: var(--primary-text-color);
+    color: white !important;
 }
 
 
@@ -137,4 +138,34 @@ ul{
 .nav-link ul {
     justify-content: end;
     gap: 40px;
+}
+
+
+
+/* header section */
+
+
+.header-section{
+    padding: 50px var(--padding-inline-section);
+
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left h1{
+    max-width: 40vw;
+}
+
+.get-started-button{
+    margin-top:20px;
+}
+
+
+
+.header-right img{
+    width:600px;
+
 }
