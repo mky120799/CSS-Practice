@@ -1,0 +1,13 @@
+.container{
+    border: 2px red solid;
+    border: 2px solid red;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    height: 500px;
+}
+
+.box{
+    border: 2px solid green;
+    margin: 10px 0;
+}

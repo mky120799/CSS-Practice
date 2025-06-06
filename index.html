@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Sticky Element */
+    .sticky {
+      position: sticky;
+      top: 0px;
+      padding: 5px;
+      background-color: #cae8ca;
+      border: 2px solid #4CAF50;
+    }
+
+    /* Relative Element */
+    #relative {
+      position: relative;
+      color: red;
+      background-color: cyan;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    /* Fixed Element */
+    #fixed {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      color: blue;
+      background-color: orange;
+      border: 5px solid yellow;
+      padding: 10px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+  <p>Try to <b>scroll</b> this page to understand how each CSS position type behaves.</p>
+
+  <!-- Relative Element -->
+  <div id="relative">I am relative (stays in flow, movable with top/left)</div>
+<!-- Sticky Element -->
+    <div class="sticky">I am sticky! (sticks when reaching 10px from top)</div>
+  <!-- Scrollable Area -->
+  <div style="padding-bottom: 2000px;">
+    <p>Scroll down to see how the sticky element behaves when it reaches 10px from the top of the viewport.</p>
+
+    
+
+    <p>More text to enable scrolling... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac magna non quam luctus pharetra. Integer viverra mi in nunc vestibulum, a congue sapien pulvinar.</p>
+    <p>More text to enable scrolling... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac magna non quam luctus pharetra. Integer viverra mi in nunc vestibulum, a congue sapien pulvinar.</p>
+  </div>
+
+  <!-- Fixed Element -->
+  <div id="fixed">I am fixed! (always on screen)</div>
+
+</body>
+</html>
